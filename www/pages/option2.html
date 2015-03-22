@@ -1,0 +1,53 @@
+<form style="margin:10px;;height:100%;background:#fff;font-size:20px">
+
+    <div class="titleform">Título</div>
+    <div class="inputform">
+        <input id="title" class="input1" name="user" type="text" >
+    </div>
+    
+    <div class="titleform">Descripción</div>
+    <div class="inputform">
+        <input id="description" class="input1" name="user" type="text" >
+    </div>
+    
+   
+    <div class="titleform">Distancia</div>
+    <div class="inputform">
+        <input id="distance" class="input1" name="user" type="text" >
+    </div>
+    
+    <div class="titleform">Dificultad</div>
+    <div class="inputform">
+         <select class="input1" id="easy" name="easy" >
+                    <option value="---">---</option>
+                    <option value="baja">Baja</option>
+                    <option value="media">Media</option>
+                    <option value="alta">Alta</option>
+         </select>
+        <!--<input id="easy" class="input1" name="user" type="text" >-->
+    </div>
+    
+     <div class="titleform">Lugar Comienzo</div>
+    <div class="inputform">
+        <input id="place" class="input1" name="user" type="text" >
+    </div>
+     
+    <div class="titleform">Fecha Evento</div>
+    <div class="inputform">
+        <input id="date" class="input1" name="user" type="date" >
+    </div>
+    
+    <div class="titleform">Hora Evento</div>
+    <div class="inputform">
+        <input id="hour" class="input1" name="user" type="time" >
+    </div>
+    
+    <div class="titleform">Coordenadas maps</div>
+    <div class="inputform">
+        <input id="latitude" placeholder="latitud" class="input1" name="user" type="text" >
+        <input id="longitude" placeholder="longitud" class="input1" style="margin-top:10px;" name="user" type="text" >
+    </div>
+    <div style="padding:10px;margin-top:10px;">
+    <button class="buttonForm" onclick="sendEvent();">Enviar solicitud evento</button>
+    </div>
+</form>

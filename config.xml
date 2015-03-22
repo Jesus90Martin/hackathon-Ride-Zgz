@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.jesus.rideZGZ" version="1.0.0">
+    <name>rideZGZ</name>
+    <description>
+       app
+    </description>
+    <author email="jesus90martin@gmail.com">
+       Jesus Martin
+    </author>
+    <content src="index.html"/>
+	<cdv:plugin name="org.apache.cordova.geolocation"/>
+	<cdv:plugin name="org.apache.cordova.plugin.splashscreen"/>
+	<cdv:plugin name="org.apache.cordova.plugin.device"/>
+	<cdv:plugin name="org.apache.cordova.plugin.dialogs"/>
+	<cdv:plugin name="nl.x-services.plugins.socialsharing"/>
+	<cdv:plugin name="nl.x-services.plugins.toast"/>
+    <access origin="*"/>
+	<preference name="Orientation" value="portrait" />
+	<preference name="SplashScreen" value="screen"/>
+	<preference name="SplashScreenDelay" value="7000"/>
+	<platform name="android">
+	<splash src="res/drawable/splash.png" density="port-hdpi"/>
+    <splash src="res/drawable/splash.png" density="port-ldpi"/>
+    <splash src="res/drawable/splash.png" density="port-mdpi"/>
+    <splash src="res/drawable/splash.png" density="port-xhdpi"/>
+    	
+	<icon src="res/ic_launcher.png" density="ldpi" />
+        <icon src="res/ic_launcher.png" density="mdpi" />
+        <icon src="res/ic_launcher.png" density="hdpi" />
+        <icon src="res/ic_launcher.png" density="xhdpi" /> 
+</platform>
+</widget>
